@@ -1,0 +1,102 @@
+{
+  "Color/base.json": {
+    "color": {
+      "base": {
+        "gray": {
+          "light": {
+            "value": "#CCCCCC",
+            "type": "color"
+          },
+          "medium": {
+            "value": "#999999",
+            "type": "color"
+          },
+          "dark": {
+            "value": "#111111",
+            "type": "color"
+          }
+        },
+        "red": {
+          "value": "#FF0000",
+          "type": "color"
+        },
+        "green": {
+          "value": "#00FF00",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Color/font.json": {
+    "color": {
+      "font": {
+        "base": {
+          "value": "{color.base.red.value}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.base.green.value}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{color.base.gray.light.value}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Size/font.json": {
+    "size": {
+      "font": {
+        "small": {
+          "value": "0.75",
+          "comment": "the small size of the font",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "1",
+          "comment": "the medium size of the font",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "2",
+          "comment": "the large size of the font",
+          "type": "sizing"
+        },
+        "base": {
+          "value": "{size.font.medium.value}",
+          "comment": "the base size of the font",
+          "type": "sizing"
+        }
+      }
+    },
+    "small": {
+      "value": "0.75",
+      "type": "fontSizes",
+      "description": "the small size of the font"
+    },
+    "medium": {
+      "value": "1",
+      "type": "fontSizes",
+      "description": "the medium size of the font"
+    },
+    "large": {
+      "value": "2",
+      "type": "fontSizes",
+      "description": "the large size of the font"
+    },
+    "base": {
+      "value": "{size.font.medium.value}",
+      "type": "fontSizes",
+      "description": "the base size of the font"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Color/base.json",
+      "Color/font.json",
+      "Size/font.json"
+    ]
+  }
+}
